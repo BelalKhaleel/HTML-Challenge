@@ -1,0 +1,146 @@
+body {
+     font-family: sans-serif;
+     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+     background-color: #402424;
+     color: white;
+  
+  
+}
+
+
+
+body{
+  max-width: 1300px;
+  margin: 10px 200px;
+  padding: 0;
+  font-size: 25px;
+}
+
+nav{
+  position: relative;
+  margin-top: 20px;
+  background-color: #3e3939;
+  padding: 15px;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: c;
+  padding: 30px 0px;
+  background-color: #293c40;
+  max-width: ;
+  width: 1300px;
+}
+nav a {
+  text-decoration: none;
+  padding: 10px 30px 10px 30px ;
+  color: white;
+  margin-left: 20px;
+  
+  
+
+}
+nav a:not(:last-child)::after{
+    content: "";
+    background-color: white;
+    height: 40px;
+    width: 1px;
+    top: 10px;
+    position: absolute;
+    margin-left: 40px;
+}
+
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;  
+
+}
+
+header {
+  position: relative;
+}
+header img{
+  width: 1300px;
+
+}
+
+header div{
+    position: absolute;
+    color: white;
+    top: 55px;
+    left: 80px;
+}
+
+.maindiv {
+  display: flex;
+
+}
+.leftdiv {
+  width: 25%;
+  padding-right: 70px;
+}
+.rightdiv {
+  width: 75%;
+}
+
+.subscription {
+  border-right: 1px solid white;
+  padding-right: 10px;
+}
+.undergallery {
+  display:flex;
+}
+.otherservices {
+  padding-left: 15px;
+}
+
+button {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+form {
+  width: 70%;
+  display: flex;
+}
+
+.click {
+  padding: 50px 0 50px 100px;
+}
+
+.submit {
+  padding: 10px 18px;
+  margin-top: 20px;
+  margin-left: 90px;
+}
+
+
+/* Start footer */
+footer{
+  margin-top: 80px;
+  position: relative;
+}
+
+
+footer::before{
+     content: "";
+    position: absolute;
+    background-color: white;
+    width: 1200px;
+    height: 1px;
+    top: -15px;
+    left: -500px;
+}
+
+
+/* End footer */
+
+
